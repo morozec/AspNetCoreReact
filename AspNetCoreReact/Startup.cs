@@ -1,3 +1,4 @@
+using DbRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -21,6 +22,11 @@ namespace AspNetCoreReact
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddScoped<IRepositoryContextFactory, RepositoryContextFactory>();
+            services.AddScoped<ICarRepository>(provider => new CarRepository(
+                Configuration.GetConnectionString("DefaultConnection"),
+                provider.GetService<IRepositoryContextFactory>()));
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

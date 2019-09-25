@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreReact", "AspNetCoreReact\AspNetCoreReact.csproj", "{78724A87-D605-4CA3-BF0C-CD54731AA75D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbRepository", "DbRepository\DbRepository.csproj", "{6D87CC84-B7A6-4438-8565-0DDADF3FED77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{A78C2755-CFD1-4EFB-9166-D54AD72A2773}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{78724A87-D605-4CA3-BF0C-CD54731AA75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78724A87-D605-4CA3-BF0C-CD54731AA75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78724A87-D605-4CA3-BF0C-CD54731AA75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D87CC84-B7A6-4438-8565-0DDADF3FED77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D87CC84-B7A6-4438-8565-0DDADF3FED77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D87CC84-B7A6-4438-8565-0DDADF3FED77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D87CC84-B7A6-4438-8565-0DDADF3FED77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78C2755-CFD1-4EFB-9166-D54AD72A2773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78C2755-CFD1-4EFB-9166-D54AD72A2773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78C2755-CFD1-4EFB-9166-D54AD72A2773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78C2755-CFD1-4EFB-9166-D54AD72A2773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
